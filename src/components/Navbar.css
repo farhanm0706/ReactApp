@@ -1,0 +1,32 @@
+.navBar {
+    background-color: white;
+    color: rgb(57, 56, 56);
+    display: flex;
+}
+
+.navBar .left-ul {
+    display: flex;
+    margin-left: 2%;
+}
+
+ul li{
+    padding-left: 10px;
+}
+ul a{
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    padding-right: 25px;
+}
+
+ul a:hover{
+    text-decoration:underline ;
+}
+
+
+.navBar .right-ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
